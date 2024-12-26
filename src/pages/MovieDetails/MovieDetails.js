@@ -22,7 +22,7 @@ const MovieDetails = () => {
   console.log(location);
   return (
     <div>
-      <LinkStyled to={backLinkHref}> Back </LinkStyled>
+      <LinkStyled to={backLinkHref}> Return </LinkStyled>
       <div>
         <Title>{title}</Title>
         <img
